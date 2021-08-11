@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+.fade-In {
+  animation: animacion 0.5s linear;
+}
+
+@keyframes animacion {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

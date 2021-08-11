@@ -1,0 +1,14 @@
+<div class="row mt-2">
+    <div class="col-6">
+        <ul class="list-group" *ngIf="toggleElement">
+            <li class="list-group-item" *ngFor="let heroe of heroeList">{{heroe}}</li>
+        </ul>
+    </div>
+    <div class="col-6">
+        <button type="button" (click)="cambiarValorPropiedad()" name="" id="" class="btn btn-outline-warning btn-lg btn-block">mostrar/ocultar</button>
+
+        <div class="alert alert-warning" *ngIf="toggleElement" role="alert">
+            Elemento de mostrar ocultar
+        </div>
+    </div>
+</div>

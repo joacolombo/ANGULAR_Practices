@@ -1,0 +1,25 @@
+section {
+  width: 80%;
+  float: left;
+  height: 83vh;
+  padding-top: 3%;
+  background: #f1f1f1;
+}
+
+h3 {
+  font-size: 40px;
+  width: 90%;
+  margin: 1% auto;
+}
+
+.textoPrincipal {
+  font-size: 20px;
+  width: 90%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+iframe {
+  display: block;
+  margin: 5% auto;
+}

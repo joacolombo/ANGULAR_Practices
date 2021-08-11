@@ -1,0 +1,21 @@
+aside {
+  height: 83vh;
+  width: 20%;
+  background: #cccccc;
+  padding-top: 5%;
+  float: left;
+}
+
+/*Se afectaran a todos los elementos llamados "contenedorLinks" que existan dentro de aside*/
+aside > .contenedorLinks {
+  height: 20%;
+  width: 80%;
+  margin: auto;
+}
+
+.contenedorLinks > a {
+  display: block;
+  font-size: 20px;
+  color: blue;
+  margin: 2px 0px;
+}
