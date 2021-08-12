@@ -7,6 +7,7 @@
               <p class="card-text">{{heroe.bio}}</p>
               <p class="card-text"><small class="text-muted">Fecha de aparición: {{heroe.aparicion}}</small></p>
               <p class="card-text"><small class="text-muted">Casa: {{heroe.casa}}</small></p>
+              <button [routerLink]="['/detalles-heroes', heroe.nombre]" type="button" name="" id="" class="btn btn-outline-dark btn-block">Ver mas..</button>
             </div>
         </div>
     </div>

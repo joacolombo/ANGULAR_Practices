@@ -8,6 +8,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { EjemploDirectivasComponent } from './components/ejemplo-directivas/ejemplo-directivas.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { appRouting } from "./app.routes";
+import { DetallesHeroesComponent } from './components/detalles-heroes/detalles-heroes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { appRouting } from "./app.routes";
     NavbarComponent,
     HeroesComponent,
     EjemploDirectivasComponent,
-    ContactoComponent
+    ContactoComponent,
+    DetallesHeroesComponent
   ],
   imports: [
     BrowserModule,
