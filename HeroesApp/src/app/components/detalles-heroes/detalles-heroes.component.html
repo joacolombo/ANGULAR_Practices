@@ -1,19 +1,16 @@
-<div class="row mt-2" *ngFor="let heroe of heroeList">
-    <div class="col-4">
-        <img [src]="heroe.img"  class="card-img-top" alt="...">
+<div class="row mb-2">
+    <div class="col">
+        <img [src]="DetailsHeroe.img"  class="card-img-top" alt="...">
     </div>
 
     <div class="col-8 texto">
-        <h2 class="card-title">{{heroe.nombre | uppercase}}</h2>
-        <p class="card-text">{{heroe.bio}}</p>
-        <p class="card-text">Fecha de aparición: {{heroe.aparicion}}</p>
-        <img [src]="heroe.casaImg" class="card-img-top" id="logo" alt="...">
+        <h2 class="card-title">{{DetailsHeroe.nombre | uppercase}}</h2>
+        <p class="card-text">{{DetailsHeroe.bio}}</p>
+        <p class="card-text">Fecha de aparición: {{DetailsHeroe.aparicion}}</p>
+        <img [src]="DetailsHeroe.casaImg" class="card-img-top" id="logo" alt="...">
 
         <div class="col-4 mt-2">
             <button routerLink="/heroe" type="button" name="" id="" class="btn btn-outline-dark btn-block">Regresar</button>
         </div>
-
     </div>
-
-    
 </div>
