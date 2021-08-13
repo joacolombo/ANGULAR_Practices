@@ -1,0 +1,14 @@
+<div class="row row-cols-1 row-cols-md-3 g-4 fade-In mt-2 fade-In">
+    <div class="col" *ngFor="let heroe of heroeList">
+        <div class="card">
+            <img [src]="heroe.img"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{heroe.nombre | uppercase}}</h5>
+              <p class="card-text">{{heroe.bio}}</p>
+              <p class="card-text"><small class="text-muted">Fecha de aparición: {{heroe.aparicion}}</small></p>
+              <p class="card-text"><small class="text-muted">Casa: {{heroe.casa}}</small></p>
+              <button [routerLink]="['/detalles-heroes', heroe.nombre]" type="button" name="" id="" class="btn btn-outline-dark btn-block">Ver mas..</button>
+            </div>
+        </div>
+    </div>
+</div>

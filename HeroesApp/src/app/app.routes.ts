@@ -5,12 +5,14 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { DetallesHeroesComponent } from './components/detalles-heroes/detalles-heroes.component';
+import { BuscarHeroesComponent } from './components/buscar-heroes/buscar-heroes.component';
 
 const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'heroe', component: HeroesComponent },
     { path: 'contacto', component: ContactoComponent },
     { path: 'detalles-heroes/:nombreHeroe', component: DetallesHeroesComponent },
+    { path: 'buscar-heroes/:nombreHeroe', component: BuscarHeroesComponent },
     //{ path: 'path/:routeParam', component: MyComponent },
     //{ path: 'staticPath', component: ... },
     //{ path: '**', component: ... },

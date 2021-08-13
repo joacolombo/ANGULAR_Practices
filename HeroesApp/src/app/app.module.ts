@@ -9,6 +9,7 @@ import { EjemploDirectivasComponent } from './components/ejemplo-directivas/ejem
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { appRouting } from "./app.routes";
 import { DetallesHeroesComponent } from './components/detalles-heroes/detalles-heroes.component';
+import { BuscarHeroesComponent } from './components/buscar-heroes/buscar-heroes.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DetallesHeroesComponent } from './components/detalles-heroes/detalles-h
     HeroesComponent,
     EjemploDirectivasComponent,
     ContactoComponent,
-    DetallesHeroesComponent
+    DetallesHeroesComponent,
+    BuscarHeroesComponent
   ],
   imports: [
     BrowserModule,

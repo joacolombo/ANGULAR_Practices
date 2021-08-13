@@ -82,6 +82,20 @@ export class HeroeService {
       }
     } 
   }
+
+  GetHeroByName(nombre:string){
+    let heroeAuxList: IHeroe[]=[]
+    
+    //indexOf busca un valor que haga match con la propiedad nombre
+    //y si lo encuentra almacena el heroe en el array
+    //por ultimo retornamos el array
+    for (const heroe of this.heroes) {
+      if(heroe.nombre.toLowerCase().indexOf(nombre.toLowerCase())>-1){
+        heroeAuxList.push(heroe);
+      }
+    }
+    return heroeAuxList;
+  }
 }
 
 //Patrones de diseño: inyeccion de dependencias
